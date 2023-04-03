@@ -4,43 +4,91 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.hero{
-    background-color: #a5cdcd;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{    
-    padding: 4px 32px;
-    font-size: 48px;
-  font-weight: 900;
-}
-ul{
-    font-size: 21px; 
-    list-style-type: none;
+body{
+    background: linear-gradient(180deg, #12dddd -28.35%, rgba(63, 0, 156, 0));
+    background-repeat: no-repeat;
     margin: 0;
-    padding: 4px 28px;
-    display: flex;
-    gap: 58px;
-  justify-content: space-between
 }
 
-.head{
-    font-size: 21px;
-    padding: 20px;
-    text-align: center;
+/* nav bar */
+
+.Navigation-bar{
     display: flex;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+img{
+    width: 10%;
+    object-fit: cover;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 57px;
+}
+nav{
+    display: flex;
+    margin-left: 800px;
+}
+ul{
+    font-size: 19px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 38px;
+}
+/* end nav bar */
+
+/* hero */
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
     align-items: center;
-    justify-content: center;
-}
-p{
-    font-size: 15px;
-    margin-top: 300px;
-    margin-right: 727px;
-}
-button{
-    border-radius: 50%;
-    border-radius: 28px;
-    padding: 8px 24px;
-    margin-left: 400px;
-}
+  }
+  
+  .head > h2 {
+    font-size: 30px;
+    margin: 0;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    align-self: center;
+  }
+  
+  .head > p {
+    font-size: 18px;
+    margin: 0;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+  }
+  
+  .head > button {
+    font-weight: 900;
+    color: white;
+    border-radius: 25px;
+    background: #0bbbe7fa;
+    padding: 20px;
+    width: 161px;
+    height: auto;
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 1;
+  }
+  
+  .head > img {
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 10px;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 3;
+  }
+  
+  
