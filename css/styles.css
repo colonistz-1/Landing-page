@@ -49,46 +49,34 @@ ul{
 /* hero */
 
 .head {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    gap: 20px;
+    display: flex;
     align-items: center;
+    align-items: center;
+    justify-content: center;   
+    padding: 90px;
   }
   
-  .head > h2 {
-    font-size: 30px;
-    margin: 0;
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
-    align-self: center;
-  }
-  
-  .head > p {
-    font-size: 18px;
-    margin: 0;
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 1;
-  }
-  
-  .head > button {
-    font-weight: 900;
-    color: white;
-    border-radius: 25px;
-    background: #0bbbe7fa;
-    padding: 20px;
-    width: 161px;
-    height: auto;
-    grid-column: 1 / span 2;
-    grid-row: 4 / span 1;
-  }
-  
+.hero-cta{
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+.hero-cta > button{
+  font-weight: 900;
+  border-radius: 20px;
+  padding: 15px; 
+  width: 157px;
+  height: 50px;
+  color: white;
+  background-color: rgb(43, 109, 231);
+}
   .head > img {
     width: 50%;
     border: 3px solid white;
     border-radius: 10px;
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 3;
   }
-  
-  
+
+/* hero end */
+
