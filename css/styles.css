@@ -104,18 +104,56 @@ ul{
   gap: 198px;
 }
 /* end body */
-
+ 
+/* quote */
 .quote{
-  background-color: rgba(15, 174, 196, 0.096);
   font-weight: 800;
   font-size: 35px;
   margin-top: 81px;
+  padding: 80px;
   display: flex;
   justify-content: center;
 }
 .author{
-  background-color: rgba(15, 174, 196, 0.096);
   display: flex;
   justify-content: center;
   margin-left: 722px;
 }
+/* end quote */
+
+/* call to action */
+.cta{
+  background-color: rgba(151, 237, 243, 0.719);
+  display: flex;
+  padding: 150px;
+  border-top: 4px solid white;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.cta > p{
+  font-size: 12px;
+  font: italic;
+}
+
+.cta > button{
+  font-weight: 900;
+  border-radius: 10px;
+  width: 134px;
+  height: 40px;
+  color: white;
+  background-color: rgb(43, 109, 231);
+}
+
+/* end call to action */
+
+/* copyright */
+.copyright{
+  background-color: #12dddd;
+  padding: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end copyright */
